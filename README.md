@@ -1,14 +1,26 @@
-# 📚 **Amazon Bestselling Books Analysis** *Unveiling Data Secrets Behind Literary Success*
+# 📚 **Amazon Bestselling Books Analysis**
+*Unveiling Data Secrets Behind Literary Success*
 
 ---
 
 <div align="center">
+  
+  <!-- Hero banner -->
+  <img src="https://imgs.search.brave.com/Xxr7d4N1etRECBdf4UqlrmYnvmfdWiZp8_CJBiAWCZ4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/YXV0b21hdGVlZC5j/b20vX25leHQvaW1h/Z2U_dXJsPS9hcGkv/aW1hZ2UtcHJveHkv/MjAyNC8wMS9Ub3At/U2VsbGluZy1Cb29r/LUNhdGVnb3JpZXMt/b24tQW1hem9uLVBv/cHVsYXItVHJlbmRz/LmpwZyZ3PTgyOCZx/PTcw" alt="Amazon Bestsellers Decoded banner" />
 
-![Amazon Books Hero Banner](https://via.placeholder.com/800x200/FF6B6B/FFFFFF?text=🔥+Amazon+Bestsellers+Decoded)
+  <!-- Badges -->
+  <br><br>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License"></a>
+  <img src="https://img.shields.io/badge/Tools-Python%20|%20Pandas%20|%20Excel%20|%20Power%20BI-4A90E2.svg" alt="Tools">
+  <img src="https://img.shields.io/badge/Focus-Sales%20Rank%20|%20Ratings%20|%20Price%20|%20Genres-9B59B6.svg" alt="Focus Areas">
+  <img src="https://img.shields.io/badge/Data-Ready%20for%20EDA-2ECC71.svg" alt="Data Ready">
 
+  <p>
+    From raw listings to <b>actionable patterns</b>—discover how <i>price, ratings, reviews, and categories</i> 
+    shape the rise of Amazon’s bestselling books.
+  </p>
 </div>
 
----
 
 ## 🎯 **The Mission: Decoding Amazon's Literary Universe**
 
@@ -32,6 +44,38 @@ I analyzed **550 Amazon bestselling books** (2009-2019) using **advanced SQL tec
 | **Career Evolution Proof** | 🚀 **Suzanne Collins**: +0.3 rating improvement | Experience = excellence (for the right authors) |
 
 ---
+
+---
+
+## 📊 **Visual Proof: The Results Speak Louder Than Code**
+
+<div align="center">
+
+### **1. Genre Market Share Evolution (2009-2019)**
+![Genre Trends](assets/images/1.png)
+*Non-Fiction's relentless rise from 45% to 68% market dominance*
+
+### **2. Author Performance Leaderboard**
+![Author Rankings](assets/images/2.png)  
+*Jeff Kinney leads with 85% consistency across 8 blockbuster books*
+
+### **3. Price-Rating Sweet Spot Analysis**  
+![Price Analysis](assets/images/3.png)
+*Budget books (<$10) outperform premium by +0.3 stars on average*
+
+### **4. Hidden Gems vs Overhyped Books**  
+![Gems vs Hype](assets/images/4.png)
+*15 undervalued masterpieces vs viral disappointments—marketing opportunities!*
+
+### **5. Author Career Evolution Trajectories**  
+![Author Evolution](assets/images/5.png)
+*Suzanne Collins: +0.3 rating improvement over 4-year career arc*
+
+</div>
+
+---
+
+
 
 ## 🛠️ **Technical Wizardry Unleashed**
 
@@ -109,35 +153,7 @@ LAG(avg_rating_that_year) OVER (PARTITION BY Author ORDER BY Year) AS prev_year_
 ```
 **Insight**: **Suzanne Collins** improved **+0.3 rating points** from debut to Hunger Games peak!
 
----
 
-## 📊 **Visual Proof: The Results Speak Louder Than Code**
-
-<div align="center">
-
-### **1. Genre Market Share Evolution (2009-2019)**
-![Genre Trends](assets/images/1.png)
-*Non-Fiction's relentless rise from 45% to 68% market dominance*
-
-### **2. Author Performance Leaderboard**
-![Author Rankings](assets/images/2.png)  
-*Jeff Kinney leads with 85% consistency across 8 blockbuster books*
-
-### **3. Price-Rating Sweet Spot Analysis**  
-![Price Analysis](assets/images/3.png)
-*Budget books (<$10) outperform premium by +0.3 stars on average*
-
-### **4. Hidden Gems vs Overhyped Books**  
-![Gems vs Hype](assets/images/4.png)
-*15 undervalued masterpieces vs viral disappointments—marketing opportunities!*
-
-### **5. Author Career Evolution Trajectories**  
-![Author Evolution](assets/images/5.png)
-*Suzanne Collins: +0.3 rating improvement over 4-year career arc*
-
-</div>
-
----
 
 ## 💡 **Battle-Tested Business Insights**
 
@@ -194,18 +210,7 @@ sqlite3 amazon_books.db < amazon_books_queries.sql
 ### **Full Setup Guide:**
 See the **inline comments** in `amazon_books_queries.sql` for detailed execution instructions.
 
----
 
-## 🔮 **The Bigger Picture: Why This Matters**
-
-This isn't just **SQL practice**—it's a **blueprint for literary success**:
-
-- **For Aspiring Authors**: Write Non-Fiction series at $8.99 price points
-- **For Publishers**: Invest in consistent performers, promote hidden gems  
-- **For Data Analysts**: Template for **advanced SQL portfolio projects**
-- **For Book Lovers**: **15 must-read hidden gems** you haven't discovered yet!
-
----
 
 ## 🌟 **About the Data Alchemist**
 
